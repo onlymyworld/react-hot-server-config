@@ -1,0 +1,25 @@
+{
+  "name": "hotmodulereplace",
+  "version": "1.0.0",
+  "description": "how install a hotModuleReplaceHtml",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --hot --port 8082",
+    "release":"webpack --config webpack.config.release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onlymyworld/hotModuleReplaceHtml.git"
+  },
+  "keywords": [
+    "hot",
+    "replace"
+  ],
+  "author": "yf",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  }
+}
