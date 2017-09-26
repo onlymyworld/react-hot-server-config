@@ -1,2 +1,2 @@
-var h1= 'Hello feeeeeeeeeee';
+var h1= 'Hello wordless';
 document.write("ewee"+h1)
