@@ -16,6 +16,20 @@ const commonConfig = {
 		path:PATH.bulid,
 		filename:'[name].js',
 	},
+	module:{
+		loaders:[
+			{
+				test:/\.(js|jsx)/,
+				loader:'babel-loader',
+				include:__dirname,
+				exclude:/node_modules/,
+				query:{
+					"presets":['react','es2015'],
+					"plugins":['react-hot-loader/babel']
+				}
+			}
+		]
+	},
 	plugins:[
 		new HtmlWebpackPlugin({
 			title:'HotRelaceHtml'
