@@ -29,7 +29,9 @@
 	npm run server [启动服务器]	 127.0.0.1
 
 
-热更新关键技术  - react-hot-loader [只有开发环境才会使用热更新,所以只需要在webpack.config.js文件里面配置]
+	
+
+	热更新关键技术  - react-hot-loader [只有开发环境才会使用热更新,所以只需要在webpack.config.js文件里面配置]
 	1:安装react-hot-loader    cnpm install --save-dev react-hot-loader @3.0.0-beta.7 [指定安装的版本]
 	2:配置
 		entry:{
