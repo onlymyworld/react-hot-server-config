@@ -34,7 +34,8 @@ const commonConfig = {
 		new HtmlWebpackPlugin({
 			title:'HotRelaceHtml'
 		})
-	]
+	],
+	devtool:'line-source-map'
 }
 
 module.exports = commonConfig;
